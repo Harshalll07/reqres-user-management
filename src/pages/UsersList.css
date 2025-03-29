@@ -1,0 +1,39 @@
+.users-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .user-card {
+    border: 1px solid #dbe2e6;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    width: 220px;
+    background: #F2EFE7;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  button {
+    margin: 5px;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    background: #9ACBD0;
+    color: #9ACBD0;
+    border-radius: 4px;
+  }
+  
+  .delete-btn {
+    background: #48A6A7;
+  }
+  
+  .delete-btn:hover {
+    background:#9ACBD0;
+  }
+  .users-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
